@@ -1,4 +1,4 @@
-# Announcement of the AI Automated Game Generator Whitelist Extraction Event
+#  AI Automated Game Generator Whitelist Extraction Event
 # Dear Developers and Creative Lovers:
 Thank you for your interest and support of AI Automatic Game Generator! We’re about to open a whitelist extraction campaign to invite you to participate in a trial and experience this innovative tool. Below are the specific process and rules of the campaign:
 
