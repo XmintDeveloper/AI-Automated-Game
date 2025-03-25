@@ -1,0 +1,138 @@
+import random
+
+class CharacterGenerator:
+    def __init__(self):
+        # Define some basic data pools, which can be expanded into more complex data structures or loaded from files/databases.
+        self.races = ["Human", "Elf", "Dwarf", "Orc", "Halfling"]
+        self.classes = ["Warrior", "Mage", "Rogue", "Cleric", "Ranger"]
+        self.hair_colors = ["Black", "Brown", "Blonde", "Red", "White", "Blue", "Green"]
+        self.eye_colors = ["Brown", "Blue", "Green", "Hazel", "Gray", "Amber"]
+        self.personality_traits = ["Brave", "Cowardly", "Kind", "Cruel", "Honest", "Deceptive", "Generous", "Greedy"]
+        self.backgrounds = ["Noble", "Peasant", "Merchant", "Thief", "Soldier", "Scholar", "Orphan"]
+
+    def generate_name(self, race):
+        # A simple name generation logic, which can be expanded with more details based on race
+        first_names = {
+            "Human": ["Alice", "Bob", "Charlie", "Diana", "Ethan"],
+            "Elf": ["Liriel", "Thalor", "Melisendra", "Faelan", "Eldara"],
+            "Dwarf": ["Gimli", "Thorin", "Balin", "Dwalin", "Fili"],
+            "Orc": ["Gruk", "Mog", "Snarl", "Gorsh", "Brog"],
+            "Halfling": ["Sam", "Frodo", "Bilbo", "Pippin", "Merry"]
+        }
+        last_names = {
+            "Human": ["Smith", "Johnson", "Williams", "Brown", "Jones"],
+            "Elf": ["Moonshadow", "Silverleaf", "Starwhisper", "Dawnstrider", "Nightbreeze"],
+            "Dwarf": ["Stoneforge", "Ironhelm", "Blackrock", "Bronzebeard", "Goldshield"],
+            "Orc": ["Bloodfist", "Ironjaw", "Stonecrush", "Gutripper", "Skullsplitter"],
+            "Halfling": ["Greenhill", "Tuckburrow", "Leafstep", "Meadowlark", "Puddifoot"]
+        }
+        first_name = random.choice(first_names[race])
+        last_name = random.choice(last_names[race])
+        return f"{first_name} {last_name}"
+
+    def generate_appearance(self):
+        # Generate descriptions of the character's appearance.
+        hair_color = random.choice(self.hair_colors)
+        eye_color = random.choice(self.eye_colors)
+        height = random.randint(150, 200)  # Height unit: centimeters
+        build = random.choice(["Slender", "Average", "Muscular", "Stocky"])
+        distinguishing_feature = random.choice([
+            "a scar on the left cheek", "a mole above the lip", "a tattoo of a mysterious symbol",
+            "unusual birthmark", "a missing tooth", "pierced ears"
+        ])
+        return {
+            "hair_color": hair_color,
+            "eye_color": eye_color,
+            "height": height,
+            "build": build,
+            "distinguishing_feature": distinguishing_feature
+        }
+
+    def generate_personality(self):
+        # Generate character personality traits
+        main_trait = random.choice(self.personality_traits)
+        secondary_trait = random.choice([t for t in self.personality_traits if t != main_trait])
+        fear = random.choice([
+            "the dark", "heights", "water", "spiders", "enclosed spaces", "failure", "betrayal"
+        ])
+        motivation = random.choice([
+            "wealth", "power", "knowledge", "revenge", "love", "justice", "freedom", "protection of family"
+        ])
+        return {
+            "main_trait": main_trait,
+            "secondary_trait": secondary_trait,
+            "fear": fear,
+            "motivation": motivation
+        }
+
+    def generate_background(self, race, char_class):
+        # Generate the character's backstory
+        background = random.choice(self.backgrounds)
+        hometown = random.choice([
+            "a bustling city", "a small village", "a mountain fortress", "a forest enclave",
+            "a desert oasis", "a floating island", "an underground city"
+        ])
+        family_status = random.choice([
+            "still has family", "orphaned at a young age", "disowned by family",
+            "family is unknown", "family is famous/infamous"
+        ])
+        early_life = random.choice([
+            "lived a normal life", "was an apprentice to a master",
+            "was part of a traveling troupe", "was orphaned and lived on the streets",
+            "was trained in a special academy", "was raised in isolation"
+        ])
+        return {
+            "background": background,
+            "hometown": hometown,
+            "family_status": family_status,
+            "early_life": early_life
+        }
+
+    def generate_character(self):
+        # Randomly select race and class
+        race = random.choice(self.races)
+        char_class = random.choice(self.classes)
+        
+        # Generate each part of the character
+        name = self.generate_name(race)
+        appearance = self.generate_appearance()
+        personality = self.generate_personality()
+        background = self.generate_background(race, char_class)
+        
+        # Assemble the complete character information
+        character = {
+            "name": name,
+            "race": race,
+            "class": char_class,
+            "appearance": appearance,
+            "personality": personality,
+            "background": background
+        }
+        
+        return character
+
+# Usage example
+if __name__ == "__main__":
+    generator = CharacterGenerator()
+    new_character = generator.generate_character()
+    
+    # Print the generated character information
+    print(f"Name: {new_character['name']}")
+    print(f"Race: {new_character['race']}")
+    print(f"Class: {new_character['class']}")
+    print("\nAppearance:")
+    print(f"- Hair Color: {new_character['appearance']['hair_color']}")
+    print(f"- Eye Color: {new_character['appearance']['eye_color']}")
+    print(f"- Height: {new_character['appearance']['height']} cm")
+    print(f"- Build: {new_character['appearance']['build']}")
+    print(f"- Distinguishing Feature: {new_character['appearance']['distinguishing_feature']}")
+    print("\nPersonality:")
+    print(f"- Main Trait: {new_character['personality']['main_trait']}")
+    print(f"- Secondary Trait: {new_character['personality']['secondary_trait']}")
+    print(f"- Fear: {new_character['personality']['fear']}")
+    print(f"- Motivation: {new_character['personality']['motivation']}")
+    print("\nBackground:")
+    print(f"- Background: {new_character['background']['background']}")
+    print(f"- Hometown: {new_character['background']['hometown']}")
+    print(f"- Family Status: {new_character['background']['family_status']}")
+    print(f"- Early Life: {new_character['background']['early_life']}")
