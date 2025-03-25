@@ -1,7 +1,63 @@
+EN
+AI automated game generator whitelist extraction process
+1. Registration phase
+1.1 Time frame
+Registration start time: [28/03/2025]
+Deadline for registration: [31/10/2025]
+1.2 Enrollment Method
+Users are required to create a submission folder and submission repository in the designated GitHub public repository (Repository). Submit the following content in it:
+Idea description: a detailed description of your idea for an AI automated game generator, including game type, gameplay, target audience, etc.
+Supporting Materials: Provide relevant images, code snippets, design sketches, or other material to demonstrate your creative direction.
+Contact information: Include your e-mail address or other contact information in the README file for the repository so that we can get in touch with you.
+1.3 Submission requirements
+The name of the repository must be in the format of “[YourName]-AI-Game-Creator”, e.g. “JohnDoe-AI-Game-Creator”.
+Ideas and materials submitted must be original or legally used materials that do not infringe on the copyright of others.
+Users are required to complete their submissions by the deadline and ensure that the repository is complete and publicly accessible.
+
+2. Information review phase
+
+2.1 Audit Time
+After the closing date of the application, we will arrange a person to review the submitted information, and the result of the review will be announced after [date of closing of the review].
+2.2 Content of the audit
+Data integrity: check that the repository contains creative descriptions, reference material and contact information.
+Idea quality: assess the creativity, feasibility, and fit of the idea with the AI automated game generator.
+Material Legitimacy: Confirm whether the submitted material is original or has been legally authorized.
+Duplicate check: If the content of multiple repositorys is found to be highly similar or duplicated, the relevant user will be disqualified.
+2.3 Feedback results
+Audited users will be entered into the whitelist candidate pool and the list will be published.
+3. Extraction phase
+3.1 Extraction time
+On [specific date], whitelist extraction will be conducted among all audited users.
+3.2 Method of extraction
+Use a randomized algorithm or random selection tool to ensure fairness and randomness in the extraction process.
+If a user submits a particularly good idea, it may be prioritized (a certain percentage of “idea priority slots” is to be set).
+3.3 Number of extraction
+According to the testing requirements, the number of whitelisted users to be extracted is [x].
+
+4. Publication of results phase
+4.1 Publication time
+The results will be announced on [specific date] after the draw.
+
+4.2 Publication channels
+Post the winner’s list in the GitHub repository.
+Notify the winning user by email or SMS.
+Post an announcement on the program’s official website or social media platforms.
+
+4.3 Notification Content
+Inform the winning user of the trial qualification and provide trial guidelines (e.g. download link, trial time, feedback method, etc.).
+
+5. Follow-up phase
+Unwinning users
+A thank you letter is sent to non-winning users to inform them of follow-up activities and encourage them to stay tuned.
+Data archiving
+Archive all submissions and extraction results for subsequent reference.
+
+CN
+AI自动游戏生成器白名单抽取流程
 1. 报名阶段
 1.1时间范围
-报名开始时间：【待定】
-报名截止时间：【待定】
+报名开始时间：【28/03/2025】
+报名截止时间：【30/10/2025】
 1.2报名方式
 用户需在指定的GitHub公开仓库（Repository），创建资料文件夹和资料仓库。在其中提交以下内容：
 创意描述：详细说明你对AI自动游戏生成器的创意，包括游戏类型、玩法、目标受众等。
@@ -11,3 +67,41 @@
 仓库名称需以“[YourName]-AI-Game-Creator”格式命名，例如：“JohnDoe-AI-Game-Creator”。
 提交的创意和素材需为原创或合法使用的素材，不得侵犯他人版权。
 用户需在截止日期前完成提交，并确保仓库内容完整且可公开访问。
+
+2. 资料审核阶段
+
+2.1审核时间
+报名截止后，我们将安排专人对提交的资料进行审核，审核结果将在[审核结束日期]后公布。
+2.2审核内容
+资料完整性：检查仓库中是否包含创意描述、参考素材和联系方式。
+创意质量：评估创意的创新性、可行性以及与AI自动游戏生成器的契合度。
+素材合法性：确认提交的素材是否为原创或已获得合法授权。
+重复性检查：若发现多个仓库内容高度相似或重复，将取消相关用户的资格。
+2.3反馈结果
+审核通过的用户将进入白名单候选池，并进行名单公布。
+3. 抽取阶段
+3.1抽取时间
+[具体日期]，在所有审核通过的用户中进行白名单抽取。
+3.2抽取方式
+使用随机算法或抽奖工具，确保抽取过程的公平性和随机性。
+若用户提交的创意特别优秀，可能会被优先考虑（可设置一定比例的“创意优先名额”）。
+3.3抽取数量
+根据测试需求，本次抽取的白名单用户数量为[X]名。
+
+4. 公布结果阶段
+4.1公布时间
+抽取结束后，结果将在[具体日期]公布。
+
+4.2公布渠道
+在GitHub仓库中发布中奖名单。
+通过邮件或短信通知中奖用户。
+在项目官网或社交媒体平台发布公告。
+
+4.3通知内容
+告知中奖用户试用资格，并提供试用指南（如下载链接、试用时间、反馈方式等）。
+
+5. 后续处理阶段
+未中奖用户
+向未中奖用户发送感谢信，告知后续活动信息，并鼓励他们继续关注。
+数据存档
+将所有提交的资料和抽取结果存档，以备后续查询。
