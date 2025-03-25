@@ -3,11 +3,11 @@
 Thank you for your interest and support of AI Automatic Game Generator! We’re about to open a whitelist extraction campaign to invite you to participate in a trial and experience this innovative tool. Below are the specific process and rules of the campaign:
 
 ## Enrollment Time
-- **Starts:** [specific date]
-- **Deadline:** [specific date]
+- **Starts:** [28/03/2025]
+- **Deadline:** [31/10/2025]
 
 ## Enrollment Methods
-1. Upload a subrepository named “[YourName]-AI-Game-Creator” in the public repository specified by GitHub.
+1. Upload a subrepository named **“[YourName]-AI-Game-Creator”** in the public repository specified by GitHub.
 2. Submit the following in the repository:
     - **Idea description:** a detailed description of your idea for an AI automated game generator, including game type, gameplay, target audience, etc.
     - **Reference Material:** Provide relevant images, code snippets, design sketches or other material.
@@ -30,5 +30,5 @@ Thank you for your interest and support of AI Automatic Game Generator! We’re 
 
 Thank you for your support. We look forward to your creative ideas! Good luck!
 
-[Name of project team]  
-[Date of announcement]
+[Xmint-Games]  
+[26/03/2025]
