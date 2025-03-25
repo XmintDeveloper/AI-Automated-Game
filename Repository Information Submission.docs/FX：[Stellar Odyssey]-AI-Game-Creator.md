@@ -1,4 +1,4 @@
-**## Stellar Odyssey**
+## **Stellar Odyssey**
 ### **I. Game Overview**
 * Name: Stellar Odyssey: AI at Your Side
 * Genre: Sci - fi Adventure
