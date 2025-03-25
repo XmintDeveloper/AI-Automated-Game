@@ -1,4 +1,4 @@
-## ** Stellar Odyssey**
+**## Stellar Odyssey**
 ### **I. Game Overview**
 * Name: Stellar Odyssey: AI at Your Side
 * Genre: Sci - fi Adventure
@@ -17,3 +17,6 @@ As a starship captain of the Stellar Alliance, you pilot a spacecraft deep into 
 * AI Companion: "Astra" learns from your choices and provides real - time assistance.
 * Procedural Generation: Each playthrough offers unique star systems and quests.
 * Branching Narrative: Your decisions shape the story and outcome.
+
+
+### Finished
